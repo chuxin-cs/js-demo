@@ -1,0 +1,23 @@
+{
+  "name": "chuxin-utils",
+  "version": "1.0.0",
+  "description": "chuxin utils",
+  "main": "dist/chuxin.cjs.js",
+  "module": "dist/chuxin.es.js",
+  "browser": "dist/chuxin.umd.js",
+  "type": "module",
+  "scripts": {
+    "dev": "rollup -c -w",
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "fs": "0.0.1-security",
+    "path": "^0.12.7",
+    "rollup": "^4.8.0"
+  }
+}
