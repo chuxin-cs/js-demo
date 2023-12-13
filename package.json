@@ -10,8 +10,13 @@
     "dev": "rollup -c -w",
     "build": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "chuxin",
+    "chuxin-utils",
+    "utils",
+    "rollup"
+  ],
+  "author": "云层上的光|初心",
   "license": "ISC",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
