@@ -2,7 +2,9 @@
   "name": "chu-xin",
   "version": "1.0.0",
   "description": "pnpm monorepo",
-  "scripts": {},
+  "scripts": {
+    "build:utils": "pnpm run -C packages/utils build"
+  },
   "keywords": [
     "chuxin",
     "chuxin-cs",
@@ -12,5 +14,8 @@
   ],
   "author": "chuxin",
   "license": "ISC",
-  "devDependencies": {}
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "rollup": "^4.12.0"
+  }
 }

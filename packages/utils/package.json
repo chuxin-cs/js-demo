@@ -6,7 +6,8 @@
   "module": "dist/utils.es.js",
   "browser": "dist/utils.umd.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rimraf dist && rollup -wc",
+    "build": "rimraf dist && rollup -c"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/chuxin-cs/chu-xin/issues"
   },
-  "homepage": "https://github.com/chuxin-cs/chu-xin/tree/master/packages/utils#readme"
+  "homepage": "https://github.com/chuxin-cs/chu-xin/tree/master/packages/utils#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7"
+  }
 }

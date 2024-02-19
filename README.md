@@ -1,6 +1,6 @@
 # ⚡ 简介
 
-chuxin utils
+pnpm monorepo
 
 # 🚀 开发
 
@@ -10,14 +10,12 @@ chuxin utils
 3. pnpm 版本 8.x
 
 # 克隆项目
-git clone https://github.com/chuxin-cs/chuxin-utils
+git clone https://github.com/chuxin-cs/chu-xin
 
 # 进入项目目录
-cd chuxin-utils
+cd chu-xin
 
 # 安装依赖
 pnpm i
 
-# 编译
-pnpm run build
 ```
