@@ -1,28 +1,16 @@
 {
-  "name": "chuxin-utils",
+  "name": "chu-xin",
   "version": "1.0.0",
-  "description": "chuxin utils",
-  "main": "dist/chuxin.cjs.js",
-  "module": "dist/chuxin.es.js",
-  "browser": "dist/chuxin.umd.js",
-  "type": "module",
-  "scripts": {
-    "dev": "rollup -c -w",
-    "build": "rollup -c"
-  },
+  "description": "pnpm monorepo",
+  "scripts": {},
   "keywords": [
     "chuxin",
-    "chuxin-utils",
-    "utils",
+    "chuxin-cs",
+    "pnpm",
+    "monorepo",
     "rollup"
   ],
   "author": "云层上的光|初心",
   "license": "ISC",
-  "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.7",
-    "@rollup/plugin-json": "^6.1.0",
-    "fs": "0.0.1-security",
-    "path": "^0.12.7",
-    "rollup": "^4.8.0"
-  }
+  "devDependencies": {}
 }
