@@ -1,13 +1,15 @@
 {
   "name": "@chu-xin/utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "internal utils across @chu-xin packages",
   "main": "dist/utils.cjs.js",
   "module": "dist/utils.es.js",
   "browser": "dist/utils.umd.js",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "rimraf dist && rollup -wc",
-    "build": "rimraf dist && rollup -c"
+    "build": "rimraf dist && rollup -c",
+    "publish": "npm publish --access public"
   },
   "repository": {
     "type": "git",

@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "pnpm monorepo",
   "scripts": {
-    "build:utils": "pnpm run -C packages/utils build"
+    "preinstall": "npx only-allow pnpm",
+    "build:utils": "pnpm run -C packages/utils build",
+    "publish:utils": "pnpm run -C packages/utils publish"
   },
   "keywords": [
     "chuxin",
