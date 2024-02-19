@@ -1,12 +1,25 @@
 {
   "name": "@chu-xin/utils",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "internal utils across @chu-xin packages",
+  "main": "dist/utils.cjs.js",
+  "module": "dist/utils.es.js",
+  "browser": "dist/utils.umd.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chuxin-cs/chu-xin.git",
+    "directory": "packages/utils"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "author": "chuxin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chuxin-cs/chu-xin/issues"
+  },
+  "homepage": "https://github.com/chuxin-cs/chu-xin/tree/master/packages/utils#readme"
 }
