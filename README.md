@@ -2,6 +2,8 @@
 
 pnpm monorepo
 
+npm https://www.npmjs.com/org/chu-xin
+
 # 🚀 开发
 
 ```shell
